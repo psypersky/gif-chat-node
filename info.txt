@@ -1,0 +1,8 @@
+For testing and being hacked...
+PostgreSQL 9.2 database added.  Please make note of these credentials:
+
+   Root User: adminvl4tqcl
+   Root Password: vjiHrL2_4Esl
+   Database Name: gifnodechat
+
+Connection URL: postgresql://$OPENSHIFT_POSTGRESQL_DB_HOST:$OPENSHIFT_POSTGRESQL_DB_PORT
