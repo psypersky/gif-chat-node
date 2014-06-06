@@ -22,7 +22,7 @@ if (typeof ipaddress === "undefined") {
     ipaddress = "127.0.0.1";
 };
 
-http.listen(port, function(){
+http.listen(port, ipaddress, function(){
   console.log('listening on *:', port);
 });
 
