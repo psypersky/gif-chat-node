@@ -1,22 +1,21 @@
 {
-  "name": "OpenShift-Sample-App",
-  "version": "1.0.0",
-  "description": "OpenShift Sample Application",
+  "name": "Gif-Node-Chat",
+  "version": "0",
+  "description": "A chat app for node",
   "keywords": [
-    "OpenShift",
+    "chat",
     "Node.js",
-    "application",
-    "openshift"
+    "gif",
+    "opensource",
+    "free"
   ],
   "author": {
-    "name": "OpenShift",
-    "email": "ramr@example.org",
-    "url": "http://www.openshift.com/"
+    "name": "Me",
+    "email": "me@me.com"
   },
-  "homepage": "http://www.openshift.com/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/openshift/origin-server"
+    "url": "https://github.com/psypersky/gif-chat-node"
   },
 
   "engines": {
@@ -25,8 +24,10 @@
   },
 
   "dependencies": {
-    "express": "~3.4.4"
+    "express": "4.3.1",
+    "socket.io": "1.0.2"
   },
+
   "devDependencies": {},
   "bundleDependencies": [],
 
